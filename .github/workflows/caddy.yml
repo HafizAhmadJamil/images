@@ -49,7 +49,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           build-args: VERSION=${{ steps.read-version.outputs.latest_version }}
           push: true
-          tags: ghcr.io/HafizAhmadJamil/caddy:latest,ghcr.io/HafizAhmadJamil/caddy:${{ steps.read-version.outputs.latest_version }}
+          tags: ghcr.io/hafizahmadjamil/caddy:latest,ghcr.io/hafizahmadjamil/caddy:${{ steps.read-version.outputs.latest_version }}
 
 
 
