@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 ARG VERSION
-FROM --platform=${BUILDPLATFORM} caddy:${VERSION}-alpine AS builder
+FROM --platform=${BUILDPLATFORM} caddy:${VERSION}-builder-alpine AS builder
 
 ARG TARGETPLATFORM
 ARG BUILDPLATFORM
